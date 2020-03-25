@@ -1,0 +1,75 @@
+body {
+    background-color: #0A090A;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/main-bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.container {
+    /* Максимальная ширина */
+    max-width: 1140px;
+    /* Контейнер по центру */
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+.logo {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    flex: 0.8;
+}
+.search-input {
+    flex: 1;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: none;
+    color: #AEAEAE;
+    font-size: 14px;
+    line-height: 16px;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: #AEAEAE;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #AEAEAE;
+  }
+  
+  ::placeholder {
+    color: #AEAEAE;
+  }
+  .search-button {
+      background-color: transparent;
+      border: none;
+      padding: 10px 18px;
+  }
+  .user {
+      display: flex;
+      align-items: center;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    object-fit: cover;
+}
+  
